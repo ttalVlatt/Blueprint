@@ -3,9 +3,7 @@
 *.pptx
 *.pdf
 *.html
-!YAML/*.docx
-!YAML/*.pptx
-
+!YAML/*
 
 # Apple Stuff
 .DS_Store
