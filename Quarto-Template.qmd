@@ -1,0 +1,34 @@
+---
+title: "Title"
+author: "Matt Capaldi"
+date: today
+format: docx
+reference-doc: YAML/Style-APA-7.docx 
+csl: YAML/APA-7.csl
+bibliography: YAML/References.yaml
+engine: knitr
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< pagebreak >}}
+
+# {{< meta title >}}
+
+Introduction
+
+# Literature Review
+
+# Theoretical Framework
+
+# Methodology
+
+# Results
+
+# Discussion and Implications
+
+# Conclusion
+
+{{< pagebreak >}}
+
+# References

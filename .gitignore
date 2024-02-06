@@ -1,6 +1,10 @@
+# Apple Stuff
+.DS_Store
+
 # History files
 .Rhistory
 .Rapp.history
+*.Rproj
 
 # Session Data files
 .RData
