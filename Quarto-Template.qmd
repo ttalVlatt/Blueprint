@@ -1,16 +1,22 @@
 ---
 title: "Title"
-author: "Matt Capaldi"
+author: "Matthew J. Capaldi"
 date: today
-format: docx
-reference-doc: YAML/Style-APA-7.docx 
+format:
+  typst:
+    template-partials: 
+      - typst-template.typ
+      - typst-show.typ
+    keep-typ: true
+    mainfont: Times
+  docx:
+    reference-doc: YAML/Style-APA-7.docx
+citeproc: true
 csl: YAML/APA-7.csl
 bibliography: YAML/References.yaml
 engine: knitr
 execute: 
   echo: false
-  message: false
-  warning: false
 editor_options: 
   chunk_output_type: console
 ---
